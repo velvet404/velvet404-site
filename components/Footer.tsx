@@ -1,4 +1,4 @@
-import { Github, Twitter, Youtube, Instagram } from "lucide-react";
+import { Youtube, StickyNote } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -15,17 +15,11 @@ export default function Footer() {
                 </div>
 
                 <div className="flex items-center gap-6">
-                    <Link href="#" className="text-silver hover:text-gold transition-colors">
-                        <Twitter size={20} />
+                    <Link href="https://note.com/pure_ram712" className="text-silver hover:text-gold transition-colors" aria-label="Note">
+                        <StickyNote size={20} />
                     </Link>
-                    <Link href="#" className="text-silver hover:text-gold transition-colors">
-                        <Instagram size={20} />
-                    </Link>
-                    <Link href="https://music.youtube.com/channel/UCdsjbL072hROZWWm9WZTdFQ?si=V9rrSXTunfZwQCvm" className="text-silver hover:text-gold transition-colors">
+                    <Link href="https://music.youtube.com/channel/UCdsjbL072hROZWWm9WZTdFQ?si=V9rrSXTunfZwQCvm" className="text-silver hover:text-gold transition-colors" aria-label="YouTube Music">
                         <Youtube size={20} />
-                    </Link>
-                    <Link href="#" className="text-silver hover:text-gold transition-colors">
-                        <Github size={20} />
                     </Link>
                 </div>
             </div>
