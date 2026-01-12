@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "velvet404",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "velvet404 - AI Jazz Singer",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "velvet404 | Official Site",
     description: "Official website of the AI Jazz Singer, velvet404.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
   },
 };
 
