@@ -16,7 +16,7 @@ const courierPrime = Courier_Prime({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://velvet404.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://velvet404-site.vercel.app"),
   title: "velvet404 | Official Site",
   description: "Official website of the AI Jazz Singer, velvet404.",
   openGraph: {
