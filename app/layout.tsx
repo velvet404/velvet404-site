@@ -16,8 +16,31 @@ const courierPrime = Courier_Prime({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://velvet404.vercel.app"),
   title: "velvet404 | Official Site",
   description: "Official website of the AI Jazz Singer, velvet404.",
+  openGraph: {
+    title: "velvet404 | Official Site",
+    description: "Official website of the AI Jazz Singer, velvet404.",
+    url: "/",
+    siteName: "velvet404",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "velvet404 - AI Jazz Singer",
+      },
+    ],
+    locale: "ja_JP",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "velvet404 | Official Site",
+    description: "Official website of the AI Jazz Singer, velvet404.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
